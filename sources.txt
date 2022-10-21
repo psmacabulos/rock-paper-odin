@@ -1,0 +1,1 @@
+resources: rock paper scissors photo: https://www.esquireme.com/brief/20945-how-to-win-at-rock-paper-scissors

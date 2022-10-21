@@ -4,17 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./assets/stylesheets/styles.css" />
+    <script src="./assets/script/script.js" async></script>
     <title>RockPaperScissors</title>
   </head>
   <body>
-    <div class="container">
-      <button id="rock">Rock</button>
-      <button id="paper">Paper</button>
-      <button id="scissors">Scissors</button>
+    <div class="game_container">
+      <h1>Welcome to the game!</h1>
+      <img
+        id="rock"
+        class="choices"
+        src="./assets/img/rock.png"
+        alt="Rock symbol"
+      />
+      <img
+        id="paper"
+        class="choices"
+        src="./assets/img/paper.png"
+        alt="Paper symbol"
+      />
+      <img
+        id="scissors"
+        class="choices"
+        src="./assets/img/scissors.png"
+        alt="Scissors symbol"
+      />
+      <div class="notif">
+        <div class="player_score">0</div>
+        <div class="info"></div>
+        <div class="computer_score">0</div>
+      </div>
     </div>
-
-    <div class="results"></div>
   </body>
 </html>
