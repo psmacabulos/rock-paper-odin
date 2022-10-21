@@ -9,29 +9,35 @@
     <title>RockPaperScissors</title>
   </head>
   <body>
+    <video muted loop id="bg_vid" autoplay>
+      <source src="./assets/vid/bg.mp4" type="video/mp4" />
+    </video>
     <div class="game_container">
       <h1>Welcome to the game!</h1>
-      <img
-        id="rock"
-        class="choices"
-        src="./assets/img/rock.png"
-        alt="Rock symbol"
-      />
-      <img
-        id="paper"
-        class="choices"
-        src="./assets/img/paper.png"
-        alt="Paper symbol"
-      />
-      <img
-        id="scissors"
-        class="choices"
-        src="./assets/img/scissors.png"
-        alt="Scissors symbol"
-      />
+      <div class="buttons">
+        <img
+          id="rock"
+          class="choices"
+          src="./assets/img/rock.png"
+          alt="Rock symbol"
+        />
+        <img
+          id="paper"
+          class="choices"
+          src="./assets/img/paper.png"
+          alt="Paper symbol"
+        />
+        <img
+          id="scissors"
+          class="choices"
+          src="./assets/img/scissors.png"
+          alt="Scissors symbol"
+        />
+      </div>
+
       <div class="notif">
         <div class="player_score">0</div>
-        <div class="info"></div>
+        <div class="info">Choose Your Weapon!</div>
         <div class="computer_score">0</div>
       </div>
     </div>
